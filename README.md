@@ -1,4 +1,4 @@
-# SmallTtricks
+# SmallTtricks, or Not So Small
 Small tricks to make computers eaiser to work with
 
 ## Back and Forward mouse key/button in Microsoft Remote Desktop 
