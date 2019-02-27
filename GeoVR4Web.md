@@ -31,9 +31,8 @@ So far, I have decided the hardware and platform problems, i.e., HTC VIVE and Mo
 
 ### Good resources to start with
 three.js based
-https://github.com/datadesk/vr-interactives-three-js
-https://blog.mozvr.com/tag/threejs/
+https://github.com/datadesk/vr-interactives-three-js <br>
+https://blog.mozvr.com/tag/threejs/  <br>
 
-Other general webgl based
 https://github.com/UDST/vizicities
 
