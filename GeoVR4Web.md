@@ -21,3 +21,6 @@ WebXR: The developing Web Mixed Reality API, which expands WebVR to allow augume
 
 I am not a gamer, at least not like most gamers on Steam. I am just looking for ways to visualize data, particularly geospatial data. It is also the Internet age with tremendous openness. So, I prefer to use the more open WebVR, WebXR to create visual representations for geospatial data. 
 
+## WebGL and Three.js 
+ 
+So far, I have decided the hardware and platform problems, i.e., HTC VIVE and Mozilla WebVR/WebXR. Now, it comes the most important part: content or model builder. Fot Web-based VR, WebGL is a must-have. And three.js seems like a good environment for connecting WebGL to GIS/geospatial data.
