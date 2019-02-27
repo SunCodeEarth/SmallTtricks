@@ -30,6 +30,10 @@ Sometimes, Firefox has trouble create WebGL 2.0 with errors like ```WebGL: Disal
 So far, I have decided the hardware and platform problems, i.e., HTC VIVE and Mozilla WebVR/WebXR. Now, it comes the most important part: content or model builder. Fot Web-based VR, WebGL is a must-have. And three.js seems like a good environment for connecting WebGL to GIS/geospatial data.
 
 ### Good resources to start with
-
+three.js based
 https://github.com/datadesk/vr-interactives-three-js
+https://blog.mozvr.com/tag/threejs/
+
+Other general webgl based
+https://github.com/UDST/vizicities
 
