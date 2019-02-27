@@ -38,3 +38,7 @@ geospatial solutions based on three.js <br>
 https://github.com/iTowns/itowns  <br>
 https://github.com/UDST/vizicities <br>
 
+A-Frame: three.js framework optimized for webvr <br>
+https://aframe.io/ <br>
+https://blog.mozvr.com/introducing-a-terrain/
+
