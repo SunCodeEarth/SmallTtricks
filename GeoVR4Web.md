@@ -31,19 +31,19 @@ So far, I have decided the hardware and platform problems, i.e., HTC VIVE and Mo
 
 ### Good resources to start with
 - three.js based <br>
--- https://github.com/datadesk/vr-interactives-three-js <br>
--- https://blog.mozvr.com/tag/threejs/  <br>
+  - https://github.com/datadesk/vr-interactives-three-js <br>
+  - https://blog.mozvr.com/tag/threejs/  <br>
 
-geospatial solutions based on three.js <br>
-https://github.com/iTowns/itowns  <br>
-https://github.com/UDST/vizicities <br>
+* geospatial solutions based on three.js <br>
+  - https://github.com/iTowns/itowns  <br>
+  - https://github.com/UDST/vizicities <br>
 
-A-Frame: three.js framework optimized for webvr <br>
-https://aframe.io/ <br>
-https://blog.mozvr.com/introducing-a-terrain/ <br>
+* A-Frame: three.js framework optimized for webvr <br>
+  - https://aframe.io/ <br>
+  - https://blog.mozvr.com/introducing-a-terrain/ <br>
 
-WebGL for Geospatial <br>
-- Uber deck.gl
-- Mapbox GL
+* WebGL for Geospatial <br>
+  - Uber deck.gl
+  - Mapbox GL
 
 
