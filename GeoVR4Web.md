@@ -19,11 +19,11 @@ Firefox Reality: A web browser live inside VR, i.e., people can surf the interne
 WebVR: A JavaScript-based API to support VR directly in Firefox. It will be evolve to WebXR.
 WebXR: The developing Web Mixed Reality API, which expands WebVR to allow augumented reality, audio, etc. 
 
-I am not a gamer, at least not like most gamers on Steam. I am just looking for ways to visualize data, particularly geospatial data. It is also the Internet age with tremendous openness. So, I prefer to use the more open WebVR, WebXR to create visual representations for geospatial data. One advantage of WebXR is that the visuals are also good without VR headsets. And the two stereo graphs are also visible on the screen in VR mode, which is handy for development, debug, and illustation purposes.
+I am not a gamer, at least not like most gamers on Steam. I am just looking for ways to visualize data, particularly geospatial data. It is also the Internet age with tremendous openness. So, I prefer the more open WebVR, WebXR when creating visual representations for geospatial data. One advantage of WebXR is that the visuals are also good without VR headsets. And the two stereo graphs are also visible on the screen in VR mode, which is handy for development, debug, and illustation purposes.
 
 ### Error: Firefox failed to create WebGL 2.0
 
-Sometimes, Firefox has trouble create WebGL 2.0 with errors like ```WebGL: Disallowing antialiased backbuffers due to blacklisting```. Solution: 1) allow antialiasing in NVIDIA Settings or NVIDIA Control Panel (assume you are using a good GeForce graphic card for VR) --> Manage 3D Settings --> Program Settings --> Firefox --> Antialiasing. 2) Firefox about:config webgl force enable --> true. Use either one both to fix the problem.
+Sometimes, Firefox has trouble create WebGL 2.0 with errors like ```WebGL: Disallowing antialiased backbuffers due to blacklisting```. Solution: 1) allow antialiasing in NVIDIA Settings or NVIDIA Control Panel (assume you are using a good GeForce graphic card for VR) --> Manage 3D Settings --> Program Settings --> Firefox --> Antialiasing. 2) Firefox about:config webgl force enable --> true. Use either one both to fix the problem, even though the first one is preferred.
 
 ## WebGL and Three.js 
  
@@ -52,4 +52,19 @@ So far, I have decided the hardware and platform problems, i.e., HTC VIVE and Mo
   - React VR
   - Primerose
   - Argon.js
+  
+* Specific solutions and tools
+
+  - R2VR: a R package that create a-frame based VR using R script and packages
+    - https://milesmcbain.xyz/r2vr/
+    - https://github.com/ACEMS/r2vr
+  - CityGML, OBJ, Unity, WebVR
+    - https://getfader.com/getting-reality-into-vr-space/
+    - https://github.com/polygon-city/citygml-to-obj
+  - Free Tools that can convert 3D models to OBJ for A-Frame
+    - Unity Personal: https://assetstore.unity.com/packages/templates/systems/webvr-assets-109152
+    - AutoCAD for education
+    - Blender
+    - https://store.unity.com/products/unity-personal
+
 -->
