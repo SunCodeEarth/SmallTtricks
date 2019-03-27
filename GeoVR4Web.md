@@ -4,10 +4,10 @@ Discuss virtual reality options and solutions for geospatial data.
 
 ## Join the big players
 
-Steam: the gamers' home created by Valve, where gamers purchase, play, and discuss games. 
-HTC: an IT company mainly focusing on hardware. 
-HTC Vive: a VR headset and system developed by Valve and HTC. 
-Steam VR: an extension of Steam for VR games by Valve. Natually, it works best with HTC Vive. 
+- Steam: the gamers' home created by Valve, where gamers purchase, play, and discuss games. 
+- HTC: an IT company mainly focusing on hardware. 
+- HTC Vive: a VR headset and system developed by Valve and HTC. 
+- Steam VR: an extension of Steam for VR games by Valve. Natually, it works best with HTC Vive. 
 
 From there, things are getting complex. Valve wants to make SteamVR more device-independent so other VR devices such as Oculus Rift can also use it as a game platform. SteamVR is also on the way to OpenVR or Open Source VR. No surprise, HTC is also going another way by creating its own ViveVR platform with store for games and apps.  
 
