@@ -40,3 +40,9 @@ Other options are essentially using Python installations that are independent fr
 Today, many take adantage of the Windows 10 Linux Subsystems (WLS) and Oracle VirtualBox to allow a Linux system to live in a Windows environment. However, some experienced the Internet issue where Ubuntu or Lubuntu has no active network connections. Quite often, this is a DNS issue. 
 - In VirturlBox, I found the network will start working if we try to update the software. The update will fail of course becuase of Internet problem. But after that, the Internet will magically come back. This does not really solve the problem. But for those who just use Lubuntu occasionally, it is a very nice workaround and could save us a lot of time. 
 - For WLS, it is little bit harder to fix the problem. Essentially, we need to manually change the ```nameserver``` in ```/etc/resolv.conf```. For example, add the line ```nameserver 8.8.8.8``` and ```nameserver 8.8.4.4``` to the file. Those two DNS are Google's public name servers, which work well with Ubuntu. 
+
+## Exchange Email Server Size Limitation
+
+Most organizations using Exchagn server impose size limitations on email storage. Periodically, we are asked to delete old emails to release some space. But emails are kinda like our digital life and keeping them permanently may serve some purposes in the future. The basic strategy is using Outlook (Express) to export older emails to a PST file and then delete them from the web-version email. 
+
+Just one trick. By default, the Outlook only synchronizes with the server for the emails within one year (the server administrator might make this even shorter). We have to change the default setting to make Outlook synch all emails. Otherwise, emails older than one year will not be exported. Go to account setting, click on the email account and set "Mail to keep offline" to all.  
